@@ -1,9 +1,9 @@
 # 🔍sue-es
 分布式搜索引擎
 # 💿安装ElasticSearch-7.2.4(CentOS 7)
-    解压
+    📦解压
         tar -zxvf elasticsearch-7.4.2-linux-x86_64.tar.gz -C /usr/local/
-    配置
+    ⚙配置
         进入elasticsearch-7.2.4文件夹中
             目录介绍:
                 bin:可执行文件在里面，运行es的命令就在这个里面，包含了一些脚本文件等
@@ -41,6 +41,6 @@
                     vm.max_map_count=262145
                 sysctl -p
         
-    启动
+    🍻启动
         cd /usr/local/elasticsearch/bin
             ./elasticsearch -d (后台运行模式)            
