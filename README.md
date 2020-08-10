@@ -22,21 +22,21 @@
                     path.logs: /usr/local/elasticsearch-7.2.4/logs
                     network.host: 0.0.0.0
                     cluster.initial_master_nodes: ["es-node1"]
-           修改config文件夹里的jvm.options
+            修改config文件夹里的jvm.options
                 vim jvm.options
                     -Xms128m
                     -Xmx128m
-           添加用户(注意:因为es不允许root操作直接执行文件，所以需要创建新的es用户)
+            添加用户(注意:因为es不允许root操作直接执行文件，所以需要创建新的es用户)
                 useradd esuser
                 chown -R esuser:esuser /usr/local/elasticsearch-7.2.4
                 su esuser
-           修改/etc/security/limits.conf
+            修改/etc/security/limits.conf
                 vim /etc/security/limits.conf
                     * soft nofile 65536
                     * hard nofile 131072
                     * soft nproc 2048
                     * hard nproc 4096 
-           修改/etc/sysctl.conf
+            修改/etc/sysctl.conf
                 vim /etc/sysctl.conf
                     vm.max_map_count=262145
                 sysctl -p
