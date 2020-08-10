@@ -41,6 +41,6 @@
                     vm.max_map_count=262145
                 sysctl -p
         
-# 🍻启动
+## 🍻启动
         cd /usr/local/elasticsearch/bin
             ./elasticsearch -d (后台运行模式)            
