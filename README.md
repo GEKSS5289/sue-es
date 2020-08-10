@@ -1,4 +1,5 @@
-# 🔍sue-es(分布式搜索引擎)
+# 🔍sue-es
+分布式搜索引擎
 # 💿安装ElasticSearch-7.2.4(CentOS 7)
     解压
         tar -zxvf elasticsearch-7.4.2-linux-x86_64.tar.gz -C /usr/local/
