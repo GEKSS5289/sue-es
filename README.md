@@ -49,7 +49,7 @@
         cd /usr/local/elasticsearch/bin
         ./elasticsearch -d (后台运行模式)  
         http:ip:9200 (测试是否成功)
-# 😘成功
+# 🌈成功
         {
             "name": "es-node1",
             "cluster_name": "sue-elasticsearch",
