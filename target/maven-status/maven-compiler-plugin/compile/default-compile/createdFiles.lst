@@ -1,1 +1,5 @@
+com\sue\config\CorsConfig.class
+com\sue\pojo\Stu.class
 com\sue\Application.class
+com\sue\config\ESConfig.class
+com\sue\controller\ItemController.class
